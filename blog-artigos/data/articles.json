@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Introdução ao Next.js App Router",
+    "author": "Breno",
+    "date": "2026-10-01",
+    "description": "Entenda a nova forma de criar rotas com o App Router.",
+    "content": "O App Router usa Server Components por padrão, o que reduz o JavaScript enviado ao navegador. As rotas são definidas por pastas dentro de app/, e cada pasta com um arquivo page.tsx vira uma URL."
+  },
+  {
+    "id": 2,
+    "title": "SSG vs SSR: quando usar cada um?",
+    "author": "Breno",
+    "date": "2026-10-05",
+    "description": "Diferenças entre geração estática e renderização no servidor.",
+    "content": "Com SSG a página é gerada em build time e servida como arquivo pronto, o que é muito rápido. Com SSR ela é gerada a cada requisição, o que é útil quando o conteúdo muda o tempo todo."
+  },
+  {
+    "id": 3,
+    "title": "Metadados dinâmicos para SEO",
+    "author": "Breno",
+    "date": "2026-10-10",
+    "description": "Como usar generateMetadata em cada página.",
+    "content": "A função generateMetadata permite definir title e description únicos para cada artigo, melhorando a indexação nos buscadores e o compartilhamento em redes sociais."
+  }
+]
